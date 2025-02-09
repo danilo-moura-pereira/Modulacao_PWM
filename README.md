@@ -1,8 +1,8 @@
 ### Link do vídeo explicativo
-https://youtu.be/...
+https://youtu.be/e_HN_7J0iAI
 
 # PWM
-Embarcatech - Tarefa 2 - Aula Síncrona 06/02
+Embarcatech - Tarefa 2 - Aula Síncrona 06/02/2025
 
 ### Requisitos cumpridos pelo projeto
 1. Considerando a GPIO 22, defina a sua frequência de PWM para, aproximadamente, 50Hz – período de 20ms. 
