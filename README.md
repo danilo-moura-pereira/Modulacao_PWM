@@ -1,7 +1,7 @@
 ### Link do vídeo explicativo
 https://youtu.be/...
 
-# UART_I2C
+# PWM
 Embarcatech - Tarefa 2 - Aula Síncrona 06/02
 
 ### Requisitos cumpridos pelo projeto
