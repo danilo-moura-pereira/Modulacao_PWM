@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "author": "Danilo Moura",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "board-pi-pico-w",
+      "id": "pico",
+      "top": -70.95,
+      "left": 263.05,
+      "rotate": 180,
+      "attrs": { "builder": "pico-sdk" }
+    },
+    {
+      "type": "wokwi-servo",
+      "id": "servo1",
+      "top": -31.6,
+      "left": -45.2,
+      "rotate": 180,
+      "attrs": {}
+    }
+  ],
+  "connections": [
+    [ "pico:GP0", "$serialMonitor:RX", "", [] ],
+    [ "pico:GP1", "$serialMonitor:TX", "", [] ],
+    [ "pico:GP22", "servo1:PWM", "green", [ "v0", "h-192.31" ] ],
+    [ "servo1:V+", "pico:3V3", "red", [ "v47.9", "h192.31" ] ],
+    [ "servo1:GND", "pico:GND.7", "black", [ "v9.6", "h192.31" ] ]
+  ],
+  "dependencies": {}
+}
